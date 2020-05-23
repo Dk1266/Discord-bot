@@ -1,0 +1,199 @@
+{
+  "id": "155101607195836416",
+  "guild_id": "41771983423143937",
+  "name": "ROCKET CHEESE",
+  "type": 2,
+  "nsfw": false,
+  "position": 5,
+  "permission_overwrites": [],
+  "bitrate": 64000,
+  "user_limit": 0,
+  "parent_id": null
+}
+{
+  "reactions": [
+    {
+      "count": 1,
+      "me": false,
+      "emoji": {
+        "id": null,
+        "name": "🔥"
+      }
+    }
+  ],
+  "attachments": [],
+  "tts": false,
+  "embeds": [],
+  "timestamp": "2017-07-11T17:27:07.299000+00:00",
+  "mention_everyone": false,
+  "id": "334385199974967042",
+  "pinned": false,
+  "edited_timestamp": null,
+  "author": {
+    "username": "Mason",
+    "discriminator": "9999",
+    "id": "53908099506183680",
+    "avatar": "a_bab14f271d565501444b2ca3be944b25"
+  },
+  "mention_roles": [],
+  "content": "Supa Hot",
+  "channel_id": "290926798999357250",
+  "mentions": [],
+  "type": 0
+}
+
+{
+  "content": "@everyone hi there, <@&123>",
+  "allowed_mentions": {
+    "parse": []
+  }
+}
+
+{
+  "content": "@here Hi there from <@123>, cc <@&124>"
+}
+
+{
+  "embed": {
+    "image": {
+      "url": "attachment://screenshot.png"
+    }
+  }
+}
+
+{
+  "id": "33590653072239123",
+  "name": "A Name",
+  "type": "twitch",
+  "account": {
+    "name": "twitchusername",
+    "id": "1234567"
+  }
+}
+
+;agreement - Used to set up an agreement system that assigns users a role upon joining and after they agree removes the role
+    Usage: ;agreement [Role name] | [Channel name] | [Kick after 24h, true or false]
+
+;alias - Can create an alias for any command. Make sure the command works before making an alias
+    Usage: ;alias [add/remove/list] [alias] [Command]
+    Aliases: name
+
+;antispam - This command is user to configure the antispam filter, you can either increase or decrease the number of messages before mutting, and set custom messages
+    Usage: ;antispam [part of antispam you'd like to change] [what you're changing to]
+
+;automod - For an easy overview of the bot's automod, see what's enabled and easily enable/disable items
+    Usage: ;automod [Part of automod to change] [What you're chaning it to]
+
+;config - Configure commands in the bot to be only usable by certain roles, also set the log channel
+    Usage: ;config [Command/log/command group] <Role/channel>
+    Aliases: perms
+
+;filter - This will setup a filtering system to filter words based on regex
+    Usage: ;filter
+
+;joinrole - Will assign a role to a user after joining, or after a user agrees
+    Usage: ;joinrole [Role name]
+    Aliases: jrole
+
+;link - Will setup one way communication of sending messages from 1 channel to another, 2 way requires 2 uses of this command
+    Usage: ;link add [destination channel] [sending channel]
+
+;namefilter - This will filter users with names that match the word/regex filter you want for your server
+    Usage: ;namefilter
+
+;welcome - This can be used to have welcome messages for people coming to your server, leaving your server or getting banned from your server
+    Usage: ;welcome [welcomemessage, leavemessage, banmessage or channel] [The message you want to display or the channel name]
+    Aliases: join
+    
+    ;ban - Will ban a user from the discord
+    Usage: ;ban [User mention or ID] [Reason]
+
+;kick - Kicks a user from the discord
+    Usage: ;kick [ID or mention] [Reason]
+
+;massban - Mass ban users from you discord
+    Usage: ;massban [User ID or mention 1] [User ID or mention 2] [User ID or mention 3]... | <Reason>
+    Aliases: mban
+
+;massrole - Adds or removes 1 role to/from multiple people
+    Usage: ;massrole [add/remove] [Role name] | [User ID or mention 1] [User ID or mention 2] [User ID or mention 3]...
+    Aliases: mrole
+
+;role - Will either give or take away a role depending on if the user already has the role
+    Usage: ;role [mention or id] [role name]
+
+;tempban - Temporarly ban a user from the discord
+    Usage: ;tempban [User ID or mention] [Time to ban in s,m,h,d,w,y] <Reason>
+    Aliases: tban
+
+;temprole - Will give or take a role for a specified amount of time
+    Usage: ;temprole [User ID or mention] [Role name or mention] [Time to give/take in s,m,h,d,w,y] <Reason>
+    Aliases: trole
+
+;unban - Will unban a user from the discord, allowing them to join back
+    Usage: ;unban [User mention or ID] [Reason]
+    Aliases: uban
+    
+    ;finduser - Will search the guild for a user containing that name
+    Usage: ;finduser [name]
+
+;giveaway - Can be used to host giveaways
+    Usage: ;giveaway [Time Length s|m|h|d] [Number of winners] [Prize]
+
+;mute - Will mute a user for a specified time and either assign them the mute role or make one, typing ;mute list will list currently muted people
+    Usage: ;mute [userid or mention] [time for mute in s, m, h, d]
+
+;purge - Deletes the specified number of messages up to 2 weeks old
+    Usage: ;purge [Number of messages]
+
+;unmute - Will remove the mutted role from the specified user allowing them to talk again
+    Usage: ;unmute [user ID or mention]
+
+;warn - Warn users for breaking the rules
+    Usage: ;warn [User mention or ID] [What rule they were breaking]
+    
+    ;help - Displays this message
+    Usage: ;help
+;8ball - Ask a question and get an answer
+    Usage: ;8ball [Question]
+
+;agree - Used to agree to the terms set by the server staff in the server if set up.
+    Usage: ;agree
+
+;avatar - Will display the avatar of the user mentioned or by default display your avatar
+    Usage: ;avatar [User ID or mention]
+    Aliases: icon
+
+;choose - Will randomly choose one of the options
+    Usage: ;choose [option 1] | [option 2] | [option 3] ...
+
+;group - This can be used to create groups in your discord and users can self assign themselves to different groups
+    Usage: ;group [join/leave/create/delete/list/listemoji] <group name>
+
+;info - Will display relavant info about either the user mentioned, the user who used the command, the server or the bot
+    Usage: ;info [user ID, mention, "me" "server" and "bot"]
+
+;invite - Posts the bot's invite
+    Usage: ;invite
+
+;poll - Creates a poll for users to react to
+    Usage: ;poll [question] | [option 1] | [option 2] ...
+
+;quote - Quote a message someone sent
+    Usage: ;quote [message id] <channel id>
+    Aliases: echo
+
+;remind - This will remind you in the set time you want to be reminded, can have 1 reminder at a time
+    Usage: ;remind [me, list or remove] [reminder]
+
+;rewind - Picks a random message from x days ago
+    Usage: ;rewind [Number of days to rewind]
+
+;shard - Gets the bots shard info, how many shards, which shards are up, servers per shard, etc
+    Usage: ;shard
+
+;support - If you're running into problems with Hackerbot use this.
+    Usage: ;support
+
+;upvote - Gives the link to upvote and support Hackerbot
+    Usage: ;upvote
